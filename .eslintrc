@@ -1,6 +1,18 @@
 {
     "extends": [
-        // "eslint:recommended",
-        "airbnb-base"
-    ]
+        "plugin:prettier/recommended",
+        "prettier",
+        "eslint:recommended",
+        "airbnb-base",
+        "plugin:import/typescript"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "rules": {
+        "prettier/prettier": ["error", { "singleQuote": true }],
+        "import/prefer-default-export": "warn",
+        "import/extensions": "off"
+    }
 }
