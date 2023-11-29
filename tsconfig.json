@@ -17,6 +17,8 @@
       ],
       "@modules": ["./src/modules/*"],
       "@routes": ["./src/routes/*"],
+      "@interfaces": ["./src/interfaces/*"],
+      "@utils": ["./src/utils/*"],
       "@controllers": ["./src/controllers/*"],
       "@src": ["./src/*"]        
     }
@@ -31,5 +33,8 @@
   ],
   "files": [
     "src/app.ts"
-  ]
+  ],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+}
 }
