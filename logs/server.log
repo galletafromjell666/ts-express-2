@@ -162,3 +162,57 @@
 [2023-11-28T23:11:40.244] [INFO] default - SERVER RUNNING ON PORT 3002
 [2023-11-28T23:11:41.699] [INFO] default - Adding route item
 [2023-11-28T23:11:55.234] [INFO] default - DB connected
+[2023-11-29T22:45:32.752] [INFO] default - SERVER RUNNING ON PORT 3002
+[2023-11-29T22:45:34.857] [INFO] default - Adding route item
+[2023-11-29T22:45:45.563] [INFO] default - DB connected
+[2023-11-29T22:46:25.474] [INFO] default - SERVER RUNNING ON PORT 3002
+[2023-11-29T22:46:28.439] [INFO] default - Adding route item
+[2023-11-29T22:46:38.895] [INFO] default - SERVER RUNNING ON PORT 3002
+[2023-11-29T22:46:40.690] [INFO] default - Adding route item
+[2023-11-29T22:46:51.805] [INFO] default - DB connected
+[2023-11-29T22:47:05.536] [INFO] default - Request received from /item function header(name) {
+  if (!name) {
+    throw new TypeError('name argument is required to req.get');
+  }
+
+  if (typeof name !== 'string') {
+    throw new TypeError('name must be a string to req.get');
+  }
+
+  var lc = name.toLowerCase();
+
+  switch (lc) {
+    case 'referer':
+    case 'referrer':
+      return this.headers.referrer
+        || this.headers.referer;
+    default:
+      return this.headers[lc];
+  }
+}
+[2023-11-29T22:49:08.034] [INFO] default - SERVER RUNNING ON PORT 3002
+[2023-11-29T22:49:11.424] [INFO] default - Adding route item
+[2023-11-29T22:49:20.509] [INFO] default - DB connected
+[2023-11-29T22:49:25.555] [INFO] default - Request received from /item content-length,121,accept-encoding,gzip, deflate, br,Accept,*/*,User-Agent,Thunder Client (https://www.thunderclient.com),Content-Type,application/json,Host,localhost:3002,Connection,close
+[2023-11-30T23:07:36.461] [INFO] default - SERVER RUNNING ON PORT 3002
+[2023-11-30T23:07:39.296] [INFO] default - Adding route auth
+[2023-11-30T23:07:39.297] [INFO] default - Adding route item
+[2023-11-30T23:07:48.758] [INFO] default - DB connected
+[2023-11-30T23:14:49.500] [INFO] default - SERVER RUNNING ON PORT 3002
+[2023-11-30T23:14:51.489] [INFO] default - Adding route auth
+[2023-11-30T23:14:51.489] [INFO] default - Adding route item
+[2023-11-30T23:28:08.477] [INFO] default - SERVER RUNNING ON PORT 3002
+[2023-11-30T23:28:10.512] [INFO] default - Adding route auth
+[2023-11-30T23:28:10.513] [INFO] default - Adding route item
+[2023-11-30T23:28:21.151] [INFO] default - DB connected
+[2023-11-30T23:29:11.619] [INFO] default - SERVER RUNNING ON PORT 3002
+[2023-11-30T23:29:14.601] [INFO] default - Adding route auth
+[2023-11-30T23:29:14.602] [INFO] default - Adding route item
+[2023-11-30T23:29:23.636] [INFO] default - DB connected
+[2023-11-30T23:30:24.396] [INFO] default - SERVER RUNNING ON PORT 3002
+[2023-11-30T23:30:27.179] [INFO] default - Adding route auth
+[2023-11-30T23:30:27.180] [INFO] default - Adding route item
+[2023-11-30T23:30:37.851] [INFO] default - DB connected
+[2023-11-30T23:37:31.287] [INFO] default - SERVER RUNNING ON PORT 3002
+[2023-11-30T23:37:33.817] [INFO] default - Adding route auth
+[2023-11-30T23:37:33.817] [INFO] default - Adding route item

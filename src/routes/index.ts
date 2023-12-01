@@ -1,6 +1,6 @@
 import { type RequestHandler, Router } from 'express';
 import { readdirSync } from 'fs';
-import { logger } from '../utils/logger';
+import logger from '../utils/logger';
 
 const router = Router();
 const ROUTER_PATH = __dirname;
@@ -18,4 +18,4 @@ readdirSync(ROUTER_PATH).forEach((fileName) => {
     });
   }
 });
-export { router };
+export default router;

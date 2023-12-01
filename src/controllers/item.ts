@@ -7,7 +7,7 @@ import {
   getItemById,
   updateItemById,
 } from '../services/item';
-import { Car } from '../interfaces/Car.interface';
+import { Car } from '../interfaces/car.interface';
 
 const getItem = async (req: Request, resp: Response) => {
   try {

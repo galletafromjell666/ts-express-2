@@ -1,4 +1,4 @@
-import { Car } from '../interfaces/Car.interface';
+import { Car } from '../interfaces/car.interface';
 import ItemModel from '../models/item';
 
 const getItemById = async (id: string) => {
