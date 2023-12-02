@@ -8,6 +8,6 @@ const generateToken = (user: User) => {
   return jwt;
 };
 
-const verifyToken = async () => {};
+const verifyToken = (jwt: string) => verify(jwt, JWT_SECRET);
 
 export { verifyToken, generateToken };
