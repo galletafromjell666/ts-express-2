@@ -1,6 +1,10 @@
-import { type Request, type Response } from 'express';
+import { type Response } from 'express';
+import type { AuthenticatedRequest } from '../middlewares/session';
 
-const getOrders = (_req: Request, resp: Response) => {
-  resp.send("Congratulations, you can see this since you're authorized");
+const getOrders = (req: AuthenticatedRequest, resp: Response) => {
+  resp.send({
+    message: "Congratulations, you can see this since you're authorized",
+    user: req?.user,
+  });
 };
 export { getOrders };

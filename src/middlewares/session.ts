@@ -1,7 +1,16 @@
 import type { NextFunction, Request, Response } from 'express';
+import { type JwtPayload } from 'jsonwebtoken';
 import { verifyToken } from '../utils/jwt.handler';
 
-const checkJwt = (req: Request, resp: Response, next: NextFunction) => {
+export interface AuthenticatedRequest extends Request {
+  user?: string | JwtPayload;
+}
+
+const session = (
+  req: AuthenticatedRequest,
+  resp: Response,
+  next: NextFunction,
+) => {
   try {
     const jwtHeader = req.headers?.authorization ?? '';
     const cleanJwt = jwtHeader.split(' ').pop() ?? '';
@@ -17,4 +26,4 @@ const checkJwt = (req: Request, resp: Response, next: NextFunction) => {
   }
 };
 
-export default checkJwt;
+export default session;

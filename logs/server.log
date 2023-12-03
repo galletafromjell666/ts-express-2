@@ -247,3 +247,16 @@
 [2023-12-01T22:41:44.468] [INFO] default - Adding route order
 [2023-12-01T22:41:51.780] [INFO] default - DB connected
 [2023-12-01T22:42:32.111] [INFO] default - Request received from /order {"accept-encoding":"gzip, deflate, br","accept":"*/*","user-agent":"Thunder Client (https://www.thunderclient.com)","authorization":"Bearer 111","host":"localhost:3002","connection":"close"}
+[2023-12-02T15:09:34.941] [INFO] default - SERVER RUNNING ON PORT 3002
+[2023-12-02T15:09:36.892] [INFO] default - Adding route auth
+[2023-12-02T15:09:36.892] [INFO] default - Adding route item
+[2023-12-02T15:09:36.893] [INFO] default - Adding route order
+[2023-12-02T15:09:47.436] [INFO] default - DB connected
+[2023-12-02T15:09:58.634] [INFO] default - Request received from /order {"accept-encoding":"gzip, deflate, br","accept":"*/*","user-agent":"Thunder Client (https://www.thunderclient.com)","authorization":"Bearer 111","host":"localhost:3002","connection":"close"}
+[2023-12-02T15:12:39.291] [INFO] default - Request received from /order {"accept-encoding":"gzip, deflate, br","accept":"*/*","user-agent":"Thunder Client (https://www.thunderclient.com)","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImdhZ3VpcnJlQDI2MDBoei5jb20iLCJpYXQiOjE3MDE1NTE1MTUsImV4cCI6MTcwMTU1ODcxNX0.WDdG6OCIx2ycmaigm_2sZ_Ep93DfKycjcSk0PYlesME","host":"localhost:3002","connection":"close"}
+[2023-12-02T15:14:45.725] [INFO] default - SERVER RUNNING ON PORT 3002
+[2023-12-02T15:14:48.012] [INFO] default - Adding route auth
+[2023-12-02T15:14:48.012] [INFO] default - Adding route item
+[2023-12-02T15:14:48.013] [INFO] default - Adding route order
+[2023-12-02T15:14:51.491] [INFO] default - Request received from /order {"accept-encoding":"gzip, deflate, br","accept":"*/*","user-agent":"Thunder Client (https://www.thunderclient.com)","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImdhZ3VpcnJlQDI2MDBoei5jb20iLCJpYXQiOjE3MDE1NTE1MTUsImV4cCI6MTcwMTU1ODcxNX0.WDdG6OCIx2ycmaigm_2sZ_Ep93DfKycjcSk0PYlesME","host":"localhost:3002","connection":"close"}
+[2023-12-02T15:15:12.641] [INFO] default - DB connected
