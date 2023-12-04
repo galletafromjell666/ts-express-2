@@ -1,5 +1,5 @@
 export interface Storage {
-  fileName: string;
-  path: string;
-  ownerId: string;
+  fileName?: string;
+  path?: string;
+  userId?: string;
 }

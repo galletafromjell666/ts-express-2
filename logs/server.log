@@ -260,3 +260,66 @@
 [2023-12-02T15:14:48.013] [INFO] default - Adding route order
 [2023-12-02T15:14:51.491] [INFO] default - Request received from /order {"accept-encoding":"gzip, deflate, br","accept":"*/*","user-agent":"Thunder Client (https://www.thunderclient.com)","authorization":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImdhZ3VpcnJlQDI2MDBoei5jb20iLCJpYXQiOjE3MDE1NTE1MTUsImV4cCI6MTcwMTU1ODcxNX0.WDdG6OCIx2ycmaigm_2sZ_Ep93DfKycjcSk0PYlesME","host":"localhost:3002","connection":"close"}
 [2023-12-02T15:15:12.641] [INFO] default - DB connected
+[2023-12-03T22:03:59.516] [INFO] default - SERVER RUNNING ON PORT 3002
+[2023-12-03T22:04:02.386] [INFO] default - Adding route auth
+[2023-12-03T22:04:02.387] [INFO] default - Adding route item
+[2023-12-03T22:04:02.388] [INFO] default - Adding route order
+[2023-12-03T22:04:02.389] [INFO] default - Adding route upload
+[2023-12-03T22:06:38.974] [INFO] default - SERVER RUNNING ON PORT 3002
+[2023-12-03T22:06:41.802] [INFO] default - Adding route auth
+[2023-12-03T22:06:41.803] [INFO] default - Adding route item
+[2023-12-03T22:06:41.804] [INFO] default - Adding route order
+[2023-12-03T22:06:41.804] [INFO] default - Adding route upload
+[2023-12-03T22:08:06.017] [INFO] default - SERVER RUNNING ON PORT 3002
+[2023-12-03T22:08:08.831] [INFO] default - Adding route auth
+[2023-12-03T22:08:08.832] [INFO] default - Adding route item
+[2023-12-03T22:08:08.832] [INFO] default - Adding route order
+[2023-12-03T22:08:08.833] [INFO] default - Adding route upload
+[2023-12-03T22:08:19.989] [INFO] default - DB connected
+[2023-12-03T22:22:04.445] [INFO] default - SERVER RUNNING ON PORT 3002
+[2023-12-03T22:22:08.314] [INFO] default - Adding route auth
+[2023-12-03T22:22:08.315] [INFO] default - Adding route item
+[2023-12-03T22:22:08.316] [INFO] default - Adding route order
+[2023-12-03T22:22:08.316] [INFO] default - Adding route upload
+[2023-12-03T22:22:17.325] [INFO] default - DB connected
+[2023-12-03T22:22:56.687] [INFO] default - received file {"user":{"id":"gaguirre@2600hz.com","iat":1701663746,"exp":1701670946}}
+[2023-12-03T22:22:56.689] [ERROR] default - ERROR_STORING_FILE undefined
+[2023-12-03T22:23:48.179] [INFO] default - SERVER RUNNING ON PORT 3002
+[2023-12-03T22:23:52.037] [INFO] default - Adding route auth
+[2023-12-03T22:23:52.038] [INFO] default - Adding route item
+[2023-12-03T22:23:52.039] [INFO] default - Adding route order
+[2023-12-03T22:23:52.041] [INFO] default - Adding route upload
+[2023-12-03T22:24:01.362] [INFO] default - DB connected
+[2023-12-03T22:24:37.884] [INFO] default - SERVER RUNNING ON PORT 3002
+[2023-12-03T22:24:41.864] [INFO] default - Adding route auth
+[2023-12-03T22:24:41.865] [INFO] default - Adding route item
+[2023-12-03T22:24:41.866] [INFO] default - Adding route order
+[2023-12-03T22:24:41.866] [INFO] default - Adding route upload
+[2023-12-03T22:24:49.603] [INFO] default - DB connected
+[2023-12-03T22:24:55.526] [INFO] default - received file {"user":{"id":"gaguirre@2600hz.com","iat":1701663746,"exp":1701670946}}
+[2023-12-03T22:24:55.528] [ERROR] default - ERROR_STORING_FILE undefined
+[2023-12-03T22:26:05.556] [INFO] default - received file {"user":{"id":"gaguirre@2600hz.com","iat":1701663746,"exp":1701670946}}
+[2023-12-03T22:26:05.560] [ERROR] default - ERROR_STORING_FILE undefined
+[2023-12-03T22:26:31.110] [INFO] default - SERVER RUNNING ON PORT 3002
+[2023-12-03T22:26:34.914] [INFO] default - Adding route auth
+[2023-12-03T22:26:34.914] [INFO] default - Adding route item
+[2023-12-03T22:26:34.915] [INFO] default - Adding route order
+[2023-12-03T22:26:34.916] [INFO] default - Adding route upload
+[2023-12-03T22:26:44.282] [INFO] default - DB connected
+[2023-12-03T22:26:46.624] [INFO] default - received file {"user":{"id":"gaguirre@2600hz.com","iat":1701663746,"exp":1701670946}}
+[2023-12-03T22:26:46.626] [ERROR] default - ERROR_STORING_FILE undefined
+[2023-12-03T22:30:05.157] [INFO] default - received file {"user":{"id":"gaguirre@2600hz.com","iat":1701663746,"exp":1701670946}}
+[2023-12-03T22:30:05.159] [ERROR] default - ERROR_STORING_FILE undefined
+[2023-12-03T22:30:06.491] [INFO] default - received file {"user":{"id":"gaguirre@2600hz.com","iat":1701663746,"exp":1701670946}}
+[2023-12-03T22:30:06.492] [ERROR] default - ERROR_STORING_FILE undefined
+[2023-12-03T22:32:21.434] [INFO] default - SERVER RUNNING ON PORT 3002
+[2023-12-03T22:32:25.420] [INFO] default - Adding route auth
+[2023-12-03T22:32:25.421] [INFO] default - Adding route item
+[2023-12-03T22:32:25.422] [INFO] default - Adding route order
+[2023-12-03T22:32:25.423] [INFO] default - Adding route upload
+[2023-12-03T22:32:33.575] [INFO] default - DB connected
+[2023-12-03T22:32:37.354] [INFO] default - received file {"user":{"id":"gaguirre@2600hz.com","iat":1701663746,"exp":1701670946}}
+[2023-12-03T22:32:37.355] [ERROR] default - ERROR_STORING_FILE undefined
+[2023-12-03T22:36:56.721] [INFO] default - received file {"user":{"id":"gaguirre@2600hz.com","iat":1701663746,"exp":1701670946}}
+[2023-12-03T22:36:56.730] [ERROR] default - ERROR_STORING_FILE undefined
+[2023-12-03T22:52:28.998] [INFO] default - received file {"user":{"id":"gaguirre@2600hz.com","iat":1701663746,"exp":1701670946},"file":{"fieldname":"fileTest","originalname":"1160358.png","encoding":"7bit","mimetype":"image/png","destination":"C:\\Users\\ideapai7\\Documents\\ts-express-2/storage","filename":"image-1701665548991.png","path":"C:\\Users\\ideapai7\\Documents\\ts-express-2\\storage\\image-1701665548991.png","size":8377}}

@@ -6,7 +6,7 @@ const StorageSchema = new Schema<Storage>(
     fileName: {
       type: String,
     },
-    ownerId: {
+    userId: {
       type: String,
     },
     path: {
